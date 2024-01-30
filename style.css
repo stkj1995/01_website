@@ -213,3 +213,15 @@
 /*-------------------------------boks 20--------------------------------*/
 
 /*Her kan du lave din egen gradient*/
+
+h2 {
+  color: aqua;
+}
+
+p {
+  color: blueviolet;
+}
+
+body {
+  background-color: brown;
+}
