@@ -215,7 +215,8 @@
 /*Her kan du lave din egen gradient*/
 
 h1 {
-  color: hotpink;
+  color: rgb(54, 25, 40);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 h2 {
@@ -227,13 +228,17 @@ h3 {
 }
 
 p {
-  color: blueviolet;
+  color: rgb(115, 95, 133);
 }
 
 body {
-  background-color: brown;
+  background-color: rgb(99, 14, 14);
 }
 
 article {
   background-color: bisque;
+}
+
+header {
+  background-color: darkviolet;
 }
