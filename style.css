@@ -214,8 +214,16 @@
 
 /*Her kan du lave din egen gradient*/
 
+h1 {
+  color: hotpink;
+}
+
 h2 {
   color: aqua;
+}
+
+h3 {
+  color: cadetblue;
 }
 
 p {
