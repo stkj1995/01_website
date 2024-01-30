@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.grid_2col_1-1 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  background-color: blueviolet;
+}
+
+@media (min-width: 640px) {
+  .grid_2col_2-1 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .grid_2col_1-1 {
+    order: -1;
+  }
+
+  .order {
+    order: -1;
+  }
+}

@@ -1,0 +1,109 @@
+/*************** Reset *********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+* {
+  font-family: tenor;
+  color: #003262;
+
+  box-sizing: border-box;
+}
+
+p {
+  padding: 20px;
+}
+
+header {
+  color: #f3f9e3;
+  font-family: tenor;
+}
+
+main {
+  color: black;
+  background-color: #a0c9cf;
+  padding: 20px;
+}
+
+body {
+  font-family: nunito;
+  padding: 10px;
+  font-size: 1.2rem;
+}
+
+h1 {
+  font-family: "Nanum Gothic", sans-serif;
+  color: #003262;
+  padding: 20px;
+  font-size: 2rem;
+}
+
+h2 {
+  font-family: "Nanum Gothic", sans-serif;
+  color: #003262;
+  padding: 20px;
+  font-size: 2rem;
+}
+
+h3 {
+  font-family: "Nanum Gothic", sans-serif;
+  color: #003262;
+  padding: 20px;
+}
+
+ul {
+  background-color: #bdab9e;
+  color: #003262;
+}
+
+dl {
+  padding: 10px;
+  gap: 50px;
+}
+
+dd {
+  padding: 10px;
+  margin: 0px;
+}
+
+dt {
+  padding: 0px;
+  margin: 10px;
+}
+
+a {
+  padding: 20px;
+}
+
+li {
+  margin: 20px;
+}
+
+footer {
+  color: #003262;
+  padding: 20px;
+  font-size: 1.5rem;
+}
+
+@font-face {
+  font-family: tenor;
+  src: url(fonts/tenorsans-regular-webfont.woff2) format("woff2");
+  src: url(fonts/tenorsans-regular-webfont.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: nunito;
+  src: url("fonts/Nunito-BoldItalic.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
